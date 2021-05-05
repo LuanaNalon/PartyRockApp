@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2E5E6A62640596300425266 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E6A52640596300425266 /* PartyRock.swift */; };
 		E2FBB6C52640340200CEEBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBB6C42640340200CEEBC8 /* AppDelegate.swift */; };
 		E2FBB6C72640340200CEEBC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBB6C62640340200CEEBC8 /* SceneDelegate.swift */; };
 		E2FBB6C92640340200CEEBC8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBB6C82640340200CEEBC8 /* MainVC.swift */; };
@@ -15,9 +16,11 @@
 		E2FBB6D12640340500CEEBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FBB6CF2640340500CEEBC8 /* LaunchScreen.storyboard */; };
 		E2FBB6DC26403ECB00CEEBC8 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FBB6DB26403ECB00CEEBC8 /* still time.ttf */; };
 		E2FBB6DF2640416B00CEEBC8 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBB6DE2640416B00CEEBC8 /* VideoVC.swift */; };
+		E2FBB6E12640437700CEEBC8 /* PartyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBB6E02640437700CEEBC8 /* PartyCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2E5E6A52640596300425266 /* PartyRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 		E2FBB6C12640340200CEEBC8 /* PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FBB6C42640340200CEEBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FBB6C62640340200CEEBC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		E2FBB6D22640340500CEEBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2FBB6DB26403ECB00CEEBC8 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 		E2FBB6DE2640416B00CEEBC8 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		E2FBB6E02640437700CEEBC8 /* PartyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		E2FBB6D9264034D400CEEBC8 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E2E5E6A52640596300425266 /* PartyRock.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		E2FBB6DA264034EE00CEEBC8 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E2FBB6E02640437700CEEBC8 /* PartyCellTableViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FBB6DF2640416B00CEEBC8 /* VideoVC.swift in Sources */,
+				E2E5E6A62640596300425266 /* PartyRock.swift in Sources */,
 				E2FBB6C92640340200CEEBC8 /* MainVC.swift in Sources */,
 				E2FBB6C52640340200CEEBC8 /* AppDelegate.swift in Sources */,
 				E2FBB6C72640340200CEEBC8 /* SceneDelegate.swift in Sources */,
+				E2FBB6E12640437700CEEBC8 /* PartyCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
